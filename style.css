@@ -57,6 +57,9 @@ p{
 #inputcity:focus{
   border: 0.15rem solid rgb(255, 255, 255);
 }
+#inputcity::placeholder{
+color: white;
+}
 
 #searchbutt{
   padding: 0.6rem 0.8rem;
