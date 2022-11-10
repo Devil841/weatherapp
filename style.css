@@ -10,6 +10,7 @@ body{
   height: 100vh;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(to top left, rgb(37, 37, 129), rgb(56, 0, 102));
 }
 
 .parent{
@@ -39,52 +40,55 @@ p{
 
 #inputcity{
   font-size: 1.2rem;
+  color: white;
   padding: 0.5rem 0rem;
   text-align: center;
   width: 100%;
   border-radius: 0.5rem;
-  border: 0.15rem solid grey;
+  border: 0.15rem solid rgb(68, 0, 255);
   transition: 0.5s;
   -webkit-transition: 0.5s;
   outline: none;
+  background-color: transparent;
 }
 
 
 
 #inputcity:focus{
-  border: 0.15rem solid rgb(80, 110, 150);
+  border: 0.15rem solid rgb(255, 255, 255);
 }
 
 #searchbutt{
-  padding: 0.2rem 0.4rem;
+  padding: 0.6rem 0.8rem;
   font-size: 1.4rem;
   border: none;
   border-radius: 0.5rem;
-  background-color:rgb(80, 110, 150);
+  background-color: black;
   color:white;
   cursor: pointer;
 }
 
 #weatherhead{
-  color: rgb(80, 110, 150);
+  color: rgb(255, 255, 255);
 } 
 #data{
 list-style-type: none;
 border-radius: 1rem;
-border: 1px solid black;
+border: 1px solid rgb(255, 255, 255);
 }
 
 #cityli{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(255, 255, 255);
   font-size: 1.5rem;
   padding: 1rem 0rem;
 }
 
 .condition{
   font-size: 1.5rem;
+  color: white;
 }
 #temp{
-  color:rgb(80, 110, 150);
+  color:rgb(255, 255, 255);
   font-size: 2rem;
   font-weight: bold;
 }
