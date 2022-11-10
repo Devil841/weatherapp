@@ -10,11 +10,11 @@ body{
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to top left, rgb(16, 16, 107), rgb(78, 0, 141));
+  background-image: linear-gradient(to top left, rgb(0, 17, 255), rgb(255, 0, 157));
 }
 
 .parent{
-  height: 50vh;
+  height: auto;
   flex: 1;
   max-width: 30vw;
   text-align: center;
