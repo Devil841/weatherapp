@@ -10,7 +10,7 @@ body{
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to top left, rgb(37, 37, 129), rgb(56, 0, 102));
+  background-image: linear-gradient(to top left, rgb(16, 16, 107), rgb(78, 0, 141));
 }
 
 .parent{
