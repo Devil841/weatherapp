@@ -1,4 +1,4 @@
-addEventListener("keypress", function (event) {
+document.addEventListener("keypress", function (event) {
    if (event.key === "Enter") {
       document.getElementById("searchbutt").click();
    }
