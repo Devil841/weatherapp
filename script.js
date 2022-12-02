@@ -5,7 +5,7 @@ document.addEventListener("keypress", function (event) {
 });
 let fun = () => {
    let city = document.getElementById("inputcity").value;
-      city = city.split(" ");
+      city = city.trim();
    let promise1 = fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=a8e71c9932b20c4ceb0aed183e6a83bb&units=imperial`
    );
